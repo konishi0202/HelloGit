@@ -11,6 +11,347 @@
   <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
   <!-- jQuery -->
   <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> -->
+  <style>
+  
+    /* body{
+  font-family
+} */
+
+*{
+  box-sizing: border-box;
+}
+
+.image{
+  background-image: url(file:///Users/user/Pictures/%E5%86%99%E7%9C%9F%E3%83%A9%E3%82%A4%E3%83%95%E3%82%99%E3%83%A9%E3%83%AA.photoslibrary/resources/proxies/derivatives/01/00/104/UNADJUSTEDNONRAW_thumb_104.jpg);
+  background-size: cover;
+  padding: 50px 0;
+  opacity: 0.8;
+  height: 590px;
+
+}
+
+nav ul{
+  display: flex;
+}
+
+.nav{
+  text-align: right;
+  margin-left: 80%;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+nav li{
+  padding: 0 2px;
+  /* font-size: 20px; */
+}
+
+.top h1{
+  color: #d1d1d1;
+}
+
+.title {
+  text-align: center;
+  line-height: normal;
+  font-size: 70px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  /* font-family: kktt; */
+  padding: 50px;
+}
+
+.content-title {
+  text-align: center;
+  margin: 30px 0 ;
+  font-weight: bold;
+  font-size: 30px;
+  /* color: white; */
+  /* background-color:#333333 ; */
+}
+
+.container {
+  width: 100%;
+  background-color: gray;
+  padding-left: 0;
+  padding-right: 0;
+  border-radius: 5px;
+  opacity: 0.7;
+  /* padding-bottom: 20px; */
+  margin-bottom: 20px;
+}
+
+.skills {
+  text-align: right;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: white;
+  /* padding-left: 0; */
+  border-radius: 5px;
+}
+
+.html {
+  width: 70%;
+  background-color: rgb(0, 225, 255);
+  /* padding-left: 0; */
+  color: #fff;
+}
+
+.css {
+  width: 70%;
+  background-color: rgb(0, 225, 255);
+  color: #fff;
+}
+
+.bootstrap {
+  width: 60%;
+  background-color: rgb(0, 225, 255);
+  color: #fff;
+}
+
+.english {
+  width: 60%;
+  background-color: rgb(0, 225, 255);
+  color: #fff;
+  /* padding-bottom: 20px; */
+}
+
+
+.wrap img  {
+  width: 387px;
+  border-radius: 25px;
+  /* size: cover; */
+  /* background-image: url(file:///Users/user/Pictures/%E5%86%99%E7%9C%9F%E3%83%A9%E3%82%A4%E3%83%95%E3%82%99%E3%83%A9%E3%83%AA.photoslibrary/resources/proxies/derivatives/01/00/103/UNADJUSTEDNONRAW_thumb_103.jpg); */
+  /* padding-top: 50px; */
+  margin-top: 50px;
+}
+
+.skill-title {
+  margin-bottom: 20px;
+  /* font-style: bold; */
+  font-size: 20px;
+  color: white;
+  opacity:0.9 ;
+  margin-top: 20px;
+}
+
+.skills-bar p {
+  color: white;
+  opacity: 0.9;
+}
+
+/* .row { */
+  /* width: 90%; */
+  /* サービスとブートストラップにズレが出る。 */
+/* } */
+
+.wrap {
+  background-color: #333333;
+  opacity: 0.9;
+  position: relative;z-index:2 ;
+  margin: 60px;
+  border-radius: 20px;
+  margin-bottom: 0;
+}
+
+.z{
+  position: relative;z-index:1 ;
+}
+
+.left {
+  /* margin-left: 20px; */
+  padding-left: 20px;
+  padding-right: 20px;
+  margin:auto;
+}
+
+.right {
+  color: white;
+  opacity: 0.8;
+  /* display: flex; */
+  /* display: inline-block; */
+  /* padding: 20px 0 0 30px; */
+  text-align: center;
+  letter-spacing: 5px;
+  line-height: 70px;
+  /* height: auto; */
+}
+
+/* .col-md-6 {
+  display: inline-block;
+} */
+
+@media (min-width:992px) {
+  .col-md-6 {
+    width: 50%;
+    float: left;
+  }
+}
+
+.name {
+  margin-top: 70px;
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+.p1 {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.p2 {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.p3 {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.p4 {
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.my-white {
+  color: white;
+  margin-top: 20px;
+}
+
+.twitter {
+  /* padding-right: 20px; */
+  margin-right: 40px;
+  /* margin-bottom: 30px; */
+}
+
+/* .image2 {
+  background-image: url(file:///Users/user/Pictures/%E5%86%99%E7%9C%9F%E3%83%A9%E3%82%A4%E3%83%95%E3%82%99%E3%83%A9%E3%83%AA.photoslibrary/Masters/2020/01/04/20200104-082414/photo0000-6298.jpg);
+  background-size: cover;
+  padding: 50px 0;
+  opacity: 0.5;
+  height: 590px;
+} */
+
+.image3 {
+  background-image: url(file:///Users/user/Pictures/%E5%86%99%E7%9C%9F%E3%83%A9%E3%82%A4%E3%83%95%E3%82%99%E3%83%A9%E3%83%AA.photoslibrary/resources/proxies/derivatives/01/00/108/Cr22tIp1R9q5zcIqZap5vw_thumb_108.jpg);
+  background-size: cover;
+  padding: 50px 0;
+  /* opacity: 0.5; */
+  height: auto;
+  /* width: 90%; */
+}
+
+.service-title {
+  text-align: center;
+  margin: 30px 0 30px 0px ;
+  /* padding-bottom: 20px; */
+  font-weight: bold;
+  font-size: 30px;
+}
+
+/* .fa-6x p{
+  font-size: 30px;
+} */
+
+.service-html {
+  margin-bottom: 50px;
+  margin-top: 40px;
+  line-height: 60px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.service-css {
+  line-height: 60px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  font-size: 30px;
+}
+
+.service-res {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 60px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  padding-right: 0;
+}
+
+.contact {
+  background-color: #333333;
+  color: #d1d1d1;
+  text-align: center;
+}
+
+.contact-title {
+  font-weight: bold;
+  font-size: 70px;
+  padding: 60px 0 80px 0;
+}
+
+.contact p {
+  font-size: 20px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  line-height: 60px;
+}
+
+.page-footer {
+  background-color: black;
+  color: #d1d1d1;
+  text-align: center;
+  font-size: 50px;
+}
+
+.page-footer h1{
+  padding: 30px 0 30px 0;
+  letter-spacing: 5px;
+}
+
+
+/* 上に戻るボタン */
+/* #pageTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+ 
+
+#pageTop i {
+  padding-top: 6px
+}
+
+ 
+
+#pageTop a {
+  display: block;
+  z-index: 999;
+  padding: 8px 0 0 8px;
+  border-radius: 30px;
+  width: 35px;
+  height: 35px;
+  background-color: #9FD6D2;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+}
+
+ 
+
+#pageTop a:hover {
+  text-decoration: none;
+  opacity: 0.7;
+} */
+  
+  
+  </style>
 
 </head>
 <body>
